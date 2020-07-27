@@ -11,17 +11,14 @@ class Header extends Component {
       case false:
         return (
           <li>
-            <a href="/auth/google">Login with Google</a>
+            <a href="/auth/google"><i className="material-icons left">login</i>Login with Google</a>
           </li>
         );
       default:
         return [
-          <li key="1">
-            <Payments />
-          </li>,
-          <li key="2">
-            <a href="/api/logout">Logout</a>
-          </li>
+          <li key="1"><Payments /></li>,
+          <li key="2"><a>Credits: <span class="new badge red" data-badge-caption="">{this.props.auth.credits}</span></a></li>,
+          <li key="3"><a href="/api/logout"><i className="material-icons right">exit_to_app</i>Logout</a></li>
         ];
     }
   }
