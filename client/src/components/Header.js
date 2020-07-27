@@ -31,9 +31,9 @@ class Header extends Component {
       <nav>
         <div class="nav-wrapper">
           <Link to={this.props.auth ? "/surveys" : "/"} class="left brand-logo">
-            &nbsp;Feedback Collector
+            &nbsp; Feedback Collector
           </Link>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <ul id="nav-mobile" class="right">
             {this.renderContent()}
           </ul>
         </div>
