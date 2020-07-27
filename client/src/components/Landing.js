@@ -43,16 +43,16 @@ const Landing = () => {
             </div>
             <div className="col s12 m4">
               <div className="center promo">
-                <i className="large material-icons red-text text-lighten-2">lock</i>
-                <h5 className="red-text text-lighten-2">Enhanced security and compliance</h5>
-                <p className="light ceneter">Secure sensitive survey data with SSO, data encryption, and access controls; keep data compliant with HIPAA, and GDPR features</p>
+                <i className="large material-icons red-text text-lighten-2">build</i>
+                <h5 className="red-text text-lighten-2">Advanced functionality and customization</h5>
+                <p className="light ceneter">Build sophisticated, custom surveys with features like advanced logic, branching, piping, multilingual support, and more</p>
               </div>
             </div>
             <div className="col s12 m4">
               <div className="center promo">
-                <i className="large material-icons red-text text-lighten-2">api</i>
-                <h5 className="red-text text-lighten-2">Integrations and APIs</h5>
-                <p className="light ceneter">Bring survey data into 100+ business-critical apps you already use, including Salesforce, Marketo, PowerBI, Tableau, and more</p>
+                <i className="large material-icons red-text text-lighten-2">support_agent</i>
+                <h5 className="red-text text-lighten-2">Dedicated customer support</h5>
+                <p className="light ceneter">Get phone support, 24/7 email support, and a dedicated Customer Success Manager to help you through each step</p>
               </div>
             </div>
           </div>
