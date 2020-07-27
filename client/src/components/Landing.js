@@ -1,7 +1,7 @@
 import React from "react";
 
 const Landing = () => {
-  return(
+  return (
     <div>
       <div className="card">
         <div className="card-image">
